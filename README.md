@@ -18,8 +18,8 @@
        "submenu": [
            {
                "submenu_title": "所有售后",
-               "path": "/all_after_sale",  path path 两个单词或以上用_连接
-               "component": "/aftersale/all-after-sale" 前一个路径 (/aftersale) 必须与一级路由的name一致
+               "path": "/all_after_sale",  path 两个单词或以上用_连接
+               "component": "/aftersale/all-after-sale" 前一个路径 (/aftersale) 必须与一级路由的name一致 且两个单词或以上用-连接注意是-不是_
            },
            {
                "submenu_title": "退款申请",
