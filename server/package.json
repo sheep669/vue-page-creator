@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fs-extra": "^10.1.0",
+    "uppercamelcase": "^3.0.0"
+  }
+}
