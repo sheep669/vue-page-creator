@@ -1,7 +1,7 @@
 <!--
  * @Author: sheep669
  * @Description: 订单模块主侧边栏
- * @Date: 2022-7-5 16:45:37
+ * @Date: 2022-8-22 15:38:08
 -->
 <template>
     <div style="width: 100%; height: calc(100% - 2px)">
@@ -41,7 +41,7 @@ export default {
     created() {
         this.getSubMenuData();
         //默认重定向到子路由的第一个path
-        this.$router.push("/all_orders");
+        this.$router.push(this.activeIndex);
     },
     methods: {
         getSubMenuData() {

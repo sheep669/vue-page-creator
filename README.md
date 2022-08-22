@@ -42,6 +42,13 @@
 ```shell
 json-server --w .\menu.json     # 启动服务器
 ```
+#### 如若没有，请先安装   
+
+```shell
+npm install -g json-server
+```
+
+[可以参考博客 ](https://blog.nowcoder.net/n/430156be48824391a7c8135d7efa287c)
 
 ```shell
  node .\createVuePage.js    # 生成页面
